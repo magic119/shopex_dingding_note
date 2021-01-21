@@ -28,8 +28,6 @@
     api_url = "xxx"
 
     client = NoticeClient(app_key=app_key, app_secret=app_secret, api_url=api_url)
-    
-    # 第一个参数是一个列表，表示要发送给谁
-    # 第二个参数也是一个列表， 表示mq消息队列
+
     client.send({"message": "测试数据"}, ["s4261"])
     
