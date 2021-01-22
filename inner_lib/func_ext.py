@@ -4,7 +4,7 @@ import urllib.parse
 import json
 import hashlib
 import time
-from lib.log import *
+from inner_lib.log import *
 from conf.config import RETRY_COUNT, TIME_STEP
 
 
